@@ -1,4 +1,6 @@
 const express = require('express')
+const path = require('path')
+const PORT = process.env.PORT || 3000
 const pool = require('./db')
 const app = express()
 const select_items = require('./templates/select_items')
@@ -11,4 +13,4 @@ app.get('/', (req,res) => {
     })
 })
 
-app.listen(3000, () => console.log('Server ready'))
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
