@@ -1,0 +1,8 @@
+{
+    "name": "lista-compras-node",
+    "description": "Lista de compras simples usando Node.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "pg": "^8.5.1"
+    }
+}
