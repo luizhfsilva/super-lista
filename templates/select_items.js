@@ -19,9 +19,9 @@ module.exports = (data) =>
                         `<h3>${cat}</h3>
                         <table>
                         ${ data.filter(item => item.category == cat).map((item) => `
-                            <tr><td><input type="number"></td>
-                            <td>${ item.unity }</td>
-                            <td>${ item.name }</td>
+                            <tr><td><input class="quantity" type="number"></td>
+                            <td class="unity">${ item.unity }</td>
+                            <td class="name">${ item.name }</td>
                             </tr>
                         `).join('') }
                         </table>
