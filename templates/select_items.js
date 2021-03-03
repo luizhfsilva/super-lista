@@ -1,7 +1,7 @@
 module.exports = (data) =>
 `<html>
     <head>
-        <title>Digite a quantia para comprar:</title>
+        <title>Super Lista de Compras</title>
         <link href="static/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link href="static/niceicon.jpg" rel="icon" sizes="128x128"/>
         <link href="static/styles.css" rel="stylesheet" type="text/css">
