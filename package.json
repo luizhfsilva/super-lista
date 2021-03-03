@@ -11,7 +11,7 @@
         "pg-copy-streams": "^5.1.1"
     },
     "scripts": {
-        "start": "npm run setup && npm run server",
+        "start": "npm run server",
         "server": "node app.json.js",
         "setup": "node setup.js"
     }
