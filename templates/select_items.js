@@ -14,7 +14,7 @@ module.exports = (data) =>
             <div class="top-bar">
                 Digite a quantia para Comprar:
             </div>
-            <div class="content">
+            <form class="content">
                     ${ [...new Set(data.map(item => item.category))].sort().map(cat =>
                         `<h3>${cat}</h3>
                         <table>
@@ -26,7 +26,7 @@ module.exports = (data) =>
                         `).join('') }
                         </table>
                     `).join('') }
-            </div>
+            </form>
             <div class="bottom-bar">
                 <a onclick="sendList()">
                 <div class="send"><img src="static/send-24px.svg" height="80px"></div>
