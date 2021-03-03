@@ -1,132 +1,64 @@
 html, body {
-    /* top: 0; */
-    /* width: 100%; */
-    /* height: 100%; */
     margin: 0;
-    /* padding: 0; */
-    /* margin-top: 100px; */
     font-family: 'Domine', serif;
-    font-size: 60;
+    font-size: 50;
     color: black;
     text-align: center;
     background: lightgray;
-    /* scroll-margin-top: 100px; */
 }
 
-.top {
+.top-bar {
     position: fixed;
     z-index: 1000;
     top: 0;
-    /* float: top; */
     width: 100%;
     height: 100px;
-    background: lightsalmon;
-    font-weight: 700;
+    line-height: 100px;
+    background: lightcoral;
 }
-.top .text {
-    padding: 10px;
-    display: inline-block;
-}
-.top .sub {
-    font-weight: 400;
-    float: center;
-}
-.top .settings {
-    float: right;
-    padding: 10px;
-    padding-right: 20px;
-    /* display: inline-block; */
-    filter: invert(100%);
-}
-.top .goback {
-    float: left;
-    padding: 10px;
-    padding-left: 20px;
-    filter: invert(100%);
-}
-.bottom {
+
+.bottom-bar {
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 100px;
+    line-height: 100px;
+    text-align: right;
     background: lightseagreen;
-    font-weight: 400;
 }
-.bottom .text{
-    float: right;
-    padding: 10px;
-    /* display: inline-block; */
-}
-.bottom .send {
+.bottom-bar .send {
     float: right;
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
     /* filter: invert(100%); */
 }
-
-.middle {
-    /* position: static; */
-    /* top: 100px; */
-    /* padding-top: 100px; */
-    margin-top: 100px;
-    /* padding-bottom: 100px; */
-    margin-bottom: 100px;
-    /* height: 100%; */
-    font-weight: 400;
+.content{
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
-/* .middle .item {
-    display: block;
-    height: 100px;
-    background: seagreen;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 50px;
-} */
-
 table {
     table-layout: fixed;
     width: 100%;
-    font-size: 40;
-    border-spacing: 20px;
-    /* border-collapse: collapse; */
-    /* border: 3px solid purple; */
+    font-size: inherit;
 }
 tr {
-    padding: 10px;
+    height: 80px;
 }
-td {
-    padding: 10px;
+td:nth-child(1) {
+    width: 20%;
+    text-align: center;
 }
-input[type=checkbox] {
-    transform: scale(3);
+td:nth-child(2) {
+    width: 20%;
+}
+td:nth-child(3) {
+    width: 60%;
 }
 input[type=number] {
-    scroll-margin-top: 100px;
-    scroll-margin-bottom: 100px;
+    scroll-margin-top: 120px;
+    scroll-margin-bottom: 120px;
     transform: scale(3);
-    width: 25%;
+    width: inherit;
 }
-/* .cofesa {
-    box-shadow: inset 0px 0px 5px 7px orange;
-}
-.extra {
-    box-shadow: inset 0px 0px 5px 7px red;
-} */
-.quantia {
-    text-align: right;
-    /* padding: 10px; */
-}
-thead th:nth-child(1){
-    width: 15%;
-    text-align: right;
-}
-thead th:nth-child(2) {
-    width:25%;
-}
-thead th:nth-child(3) {
-    width: 50%;
-}
-thead th:nth-child(4) {
-    width: 10%;
-}
+

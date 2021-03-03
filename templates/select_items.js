@@ -11,41 +11,28 @@ module.exports = (data) =>
     </head>
 
     <body>
-        <div class="container">
-            <div class="top">
-                <div id="titulo" class="text sub">Digite a quantia para Comprar:</div>
+            <div class="top-bar">
+                Digite a quantia para Comprar:
             </div>
-            <div class="middle">
-            <form id="form" class="middle">
-                <table id="table_list">
-                    <thead>
-                        <tr>
-                            <th scope="col">Quantia</th>
-                            <th></th>
-                            <th scope="col">Nome</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    ${ data.map((item) => 
-                        `<tr>
-                            <td class="quantia">
-                            <input class="quantidade" type="number">
-                            </td>
-                            <td class="unidade">${ item.unity }</td>
-                            <td class="nome">${ item.name }</td>
-                        </tr>`
-                    ).join('') }
-                    </tbody>
-                </table>
-            </form>
+            <div class="content">
+                    ${ [...new Set(data.map(item => item.category))].sort().map(cat =>
+                        `<h3>${cat}</h3>
+                        <table>
+                        ${ data.filter(item => item.category == cat).map((item) => `
+                            <tr><td><input type="number"></td>
+                            <td>${ item.unity }</td>
+                            <td>${ item.name }</td>
+                            </tr>
+                        `).join('') }
+                        </table>
+                    `).join('') }
             </div>
-            <div class="bottom">
+            <div class="bottom-bar">
                 <a onclick="sendList()">
                 <div class="send"><img src="static/send-24px.svg" height="80px"></div>
                 </a>
                 <div class="text">Enviar via Whatsapp</div>
             </div>
         </div>
-        <script src="static/scrollintoview.js"></script>
     </body>
 </html>`

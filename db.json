@@ -1,0 +1,412 @@
+[
+    {
+        "name": "Água Sanitária",
+        "category": "Limpeza",
+        "unity": "Lts"
+    },
+    {
+        "name": "Alcool 70",
+        "category": "Limpeza",
+        "unity": "Lts"
+    },
+    {
+        "name": "Desinfetante",
+        "category": "Limpeza",
+        "unity": "Lts"
+    },
+    {
+        "name": "Detergente Concentrado",
+        "category": "Limpeza",
+        "unity": "un."
+    },
+    {
+        "name": "Esponja Amarela",
+        "category": "Limpeza",
+        "unity": "pct"
+    },
+    {
+        "name": "Esponja Azul",
+        "category": "Limpeza",
+        "unity": "pct"
+    },
+    {
+        "name": "Papel Higienico",
+        "category": "Limpeza",
+        "unity": "pct"
+    },
+    {
+        "name": "Sabão em pedra pct",
+        "category": "Limpeza",
+        "unity": "pct"
+    },
+    {
+        "name": "Sabão em pó Tixan ou Surf",
+        "category": "Limpeza",
+        "unity": "kg"
+    },
+    {
+        "name": "Sabonete",
+        "category": "Limpeza",
+        "unity": "un."
+    },
+    {
+        "name": "Açucar cristal",
+        "category": "Alimentos",
+        "unity": "kg"
+    },
+    {
+        "name": "Agua e Sal",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Arroz integral",
+        "category": "Alimentos",
+        "unity": "kg"
+    },
+    {
+        "name": "Azeite",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Bandeja 30 ovos",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Bolacha Maisena",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Café",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Coca-cola",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Farinha Trigo",
+        "category": "Alimentos",
+        "unity": "kg"
+    },
+    {
+        "name": "Feijão",
+        "category": "Alimentos",
+        "unity": "kg"
+    },
+    {
+        "name": "Fermento Biologico env",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Leite",
+        "category": "Alimentos",
+        "unity": "Lts"
+    },
+    {
+        "name": "Macarrão",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Maizena Grande",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Molho tomate",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Oleo girassol",
+        "category": "Alimentos",
+        "unity": "Lts"
+    },
+    {
+        "name": "Pão de mel",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Rosquinha de coco",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Tapioca kg",
+        "category": "Alimentos",
+        "unity": "kg"
+    },
+    {
+        "name": "Vinagre",
+        "category": "Alimentos",
+        "unity": "un."
+    },
+    {
+        "name": "Amendoa",
+        "category": "Secos e Molhados",
+        "unity": "kg"
+    },
+    {
+        "name": "Aveia",
+        "category": "Secos e Molhados",
+        "unity": "kg"
+    },
+    {
+        "name": "Azeitona Preta sem car",
+        "category": "Secos e Molhados",
+        "unity": "kg"
+    },
+    {
+        "name": "Bacon 400g fatiado",
+        "category": "Secos e Molhados",
+        "unity": "un."
+    },
+    {
+        "name": "Calabresa 2.5kg",
+        "category": "Secos e Molhados",
+        "unity": "un."
+    },
+    {
+        "name": "Grao de Bico",
+        "category": "Secos e Molhados",
+        "unity": "kg"
+    },
+    {
+        "name": "Linguica",
+        "category": "Secos e Molhados",
+        "unity": "kg"
+    },
+    {
+        "name": "Maionese kg",
+        "category": "Secos e Molhados",
+        "unity": "kg"
+    },
+    {
+        "name": "Mussarela peca",
+        "category": "Secos e Molhados",
+        "unity": "un."
+    },
+    {
+        "name": "Presunto peca",
+        "category": "Secos e Molhados",
+        "unity": "un."
+    },
+    {
+        "name": "Requeijao copo",
+        "category": "Secos e Molhados",
+        "unity": "un."
+    },
+    {
+        "name": "Açucar coco",
+        "category": "Secos e Molhados",
+        "unity": "un."
+    },
+    {
+        "name": "Bicarbonato de Sodio",
+        "category": "Limpeza",
+        "unity": "kg"
+    },
+    {
+        "name": "Cacau em pó",
+        "category": "Secos e Molhados",
+        "unity": "kg"
+    },
+    {
+        "name": "Oleo de coco",
+        "category": "Secos e Molhados",
+        "unity": "un."
+    },
+    {
+        "name": "Fralda HigiFralda P/M",
+        "category": "Farmácia",
+        "unity": "pct"
+    },
+    {
+        "name": "Luva Nitrilica M",
+        "category": "Farmácia",
+        "unity": "pct"
+    },
+    {
+        "name": "Bobina 35x50cm",
+        "category": "Embalagens",
+        "unity": "un."
+    },
+    {
+        "name": "Saco 100L 5kg",
+        "category": "Embalagens",
+        "unity": "un."
+    },
+    {
+        "name": "Saco 60L 5kg",
+        "category": "Embalagens",
+        "unity": "un."
+    },
+    {
+        "name": "Saco Jujuba 10x100und",
+        "category": "Embalagens",
+        "unity": "un."
+    },
+    {
+        "name": "Sacola 38x48cm",
+        "category": "Embalagens",
+        "unity": "un."
+    },
+    {
+        "name": "Alho",
+        "category": "Feira",
+        "unity": "kg"
+    },
+    {
+        "name": "Banana",
+        "category": "Feira",
+        "unity": "kg"
+    },
+    {
+        "name": "Oregano",
+        "category": "Secos e Molhados",
+        "unity": "gr."
+    },
+    {
+        "name": "Açafrão",
+        "category": "Secos e Molhados",
+        "unity": "gr."
+    },
+    {
+        "name": "Sal do Himalaia",
+        "category": "Secos e Molhados",
+        "unity": "kg"
+    },
+    {
+        "name": "Queijo Parmesão Vegano",
+        "category": "Secos e Molhados",
+        "unity": "un."
+    },
+    {
+        "name": "Levedo de Cerveja",
+        "category": "Secos e Molhados",
+        "unity": "gr."
+    },
+    {
+        "name": "Mostarda Folhas",
+        "category": "Feira",
+        "unity": "maço"
+    },
+    {
+        "name": "Rucula",
+        "category": "Feira",
+        "unity": "maço"
+    },
+    {
+        "name": "Couve",
+        "category": "Feira",
+        "unity": "maço"
+    },
+    {
+        "name": "Almeirão",
+        "category": "Feira",
+        "unity": "maço"
+    },
+    {
+        "name": "Catalônia",
+        "category": "Feira",
+        "unity": "maço"
+    },
+    {
+        "name": "Ora Pro Nobis",
+        "category": "Feira",
+        "unity": "maço"
+    },
+    {
+        "name": "Taioba",
+        "category": "Feira",
+        "unity": "maço"
+    },
+    {
+        "name": "Flores capuchinha",
+        "category": "Feira",
+        "unity": "maço"
+    },
+    {
+        "name": "Mandioca",
+        "category": "Feira",
+        "unity": "kg"
+    },
+    {
+        "name": "Nabo",
+        "category": "Feira",
+        "unity": "kg"
+    },
+    {
+        "name": "Cenoura",
+        "category": "Feira",
+        "unity": "maço"
+    },
+    {
+        "name": "Curcuma",
+        "category": "Feira",
+        "unity": "unid 200g"
+    },
+    {
+        "name": "Gengibre",
+        "category": "Feira",
+        "unity": "unid 200g"
+    },
+    {
+        "name": "Vagem",
+        "category": "Feira",
+        "unity": "kg"
+    },
+    {
+        "name": "Ervilha Torta",
+        "category": "Feira",
+        "unity": "kg"
+    },
+    {
+        "name": "Pepino Japones",
+        "category": "Feira",
+        "unity": "kg"
+    },
+    {
+        "name": "Cana de açucar pedaços",
+        "category": "Feira",
+        "unity": "pacote"
+    },
+    {
+        "name": "Mamão Caipira",
+        "category": "Feira",
+        "unity": "kg"
+    },
+    {
+        "name": "Limão Cravo",
+        "category": "Feira",
+        "unity": "kg"
+    },
+    {
+        "name": "Cheiro Verde",
+        "category": "Feira",
+        "unity": "maço"
+    },
+    {
+        "name": "Mel Silvestre",
+        "category": "Feira",
+        "unity": "unid 500g"
+    },
+    {
+        "name": "Pimentas desidratadas",
+        "category": "Feira",
+        "unity": "un."
+    },
+    {
+        "name": "Conserva Pimenta Biquinho",
+        "category": "Feira",
+        "unity": "un."
+    }
+]
