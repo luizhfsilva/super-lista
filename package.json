@@ -12,7 +12,7 @@
     },
     "scripts": {
         "start": "npm run setup && npm run server",
-        "server": "node app.js",
+        "server": "node app.json.js",
         "setup": "node setup.js"
     }
 }
