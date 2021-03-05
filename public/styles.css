@@ -1,28 +1,30 @@
 html, body {
     margin: 0;
     font-family: 'Domine', serif;
-    font-size: 50;
+    font-size: calc(4*(1vh+1vw)/2);
     color: black;
     text-align: center;
     background: lightgray;
 }
 
 .top-bar {
-    position: fixed;
     z-index: 1000;
+    position: sticky;
     top: 0;
     width: 100%;
-    height: 100px;
-    line-height: 100px;
+    min-width: fit-content;
+    line-height: 2rem;
+    white-space: nowrap;
     background: lightcoral;
 }
 
 .bottom-bar {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
-    height: 100px;
-    line-height: 100px;
+    min-width: fit-content;
+    line-height: 2rem;
+    white-space: nowrap;
     text-align: right;
     background: lightseagreen;
 }
@@ -34,8 +36,8 @@ html, body {
     /* filter: invert(100%); */
 }
 .content{
-    margin-top: 120px;
-    margin-bottom: 120px;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 2rem; */
 }
 table {
     table-layout: fixed;
@@ -43,7 +45,7 @@ table {
     font-size: inherit;
 }
 tr {
-    height: 80px;
+    height: 2em;
 }
 td:nth-child(1) {
     width: 20%;
@@ -56,8 +58,8 @@ td:nth-child(3) {
     width: 60%;
 }
 input[type=number] {
-    scroll-margin-top: 120px;
-    scroll-margin-bottom: 120px;
+    scroll-margin-top: 2rem;
+    scroll-margin-bottom: 2rem;
     transform: scale(3);
     width: inherit;
 }

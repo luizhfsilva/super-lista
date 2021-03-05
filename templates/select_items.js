@@ -29,7 +29,7 @@ module.exports = (data) =>
             </form>
             <div class="bottom-bar">
                 <a onclick="sendList()">
-                <div class="send"><img src="static/send-24px.svg" height="80px"></div>
+                <div class="send"><img src="static/send-24px.svg"></div>
                 </a>
                 <div class="text">Enviar via Whatsapp</div>
             </div>
