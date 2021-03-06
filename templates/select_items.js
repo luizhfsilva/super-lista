@@ -11,28 +11,38 @@ module.exports = (data) =>
     </head>
 
     <body>
-            <div class="top-bar">
-                Digite a quantia para Comprar:
-            </div>
-            <form class="content">
-                    ${ [...new Set(data.map(item => item.category))].sort().map(cat =>
-                        `<h3>${cat}</h3>
-                        <table>
-                        ${ data.filter(item => item.category == cat).map((item) => `
-                            <tr><td><input class="quantity" type="number"></td>
-                            <td class="unity">${ item.unity }</td>
-                            <td class="name">${ item.name }</td>
+        <div class="top-bar">
+            Digite a quantia para Comprar:
+        </div>
+        <form class="content">
+
+            ${ [...new Set(data.map(item => item.category))].sort().map(cat =>`
+
+                <h3>${cat}</h3>
+                <table>
+
+                ${ data.filter(item => item.category == cat)
+                   .sort((a, b) => a.name.localeCompare(b.name))
+                   .map(item => `
+
+                            <tr>
+                                <td><input class="quantity" type="number"></td>
+                                <td class="unity">${ item.unity }</td>
+                                <td class="name">${ item.name }</td>
                             </tr>
-                        `).join('') }
-                        </table>
-                    `).join('') }
-            </form>
-            <div class="bottom-bar">
-                <a onclick="sendList()">
+
+                `).join('') }
+
+                </table>
+
+            `).join('') }
+
+        </form>
+        <div class="bottom-bar">
+            <a onclick="sendList()">
                 <div class="send"><img src="static/send-24px.svg"></div>
-                </a>
-                <div class="text">Enviar via Whatsapp</div>
-            </div>
+            </a>
+            <div class="text">Enviar via Whatsapp</div>
         </div>
     </body>
 </html>`
