@@ -1,0 +1,37 @@
+
+.top_bar {
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    min-width: fit-content;
+    line-height: 2rem;
+    white-space: nowrap;
+    background: lightcoral;
+}
+
+.bottom_bar {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    /*min-width: fit-content;*/
+    line-height: 2rem;
+    white-space: nowrap;
+    /*text-align: right;*/
+    background: lightseagreen;
+    display: flex;
+    place-content: flex-end;
+}
+.bottom_bar .send_button {
+    /*float: right;
+    padding: 5px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    /*height: 1.5rem;*/
+    /* filter: invert(100%); */
+}
+.content{
+    /* margin-top: 2rem; */
+    /* margin-bottom: 2rem; */
+}
+

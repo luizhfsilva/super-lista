@@ -25,11 +25,7 @@ module.exports = (data) =>
                    .sort((a, b) => a.name.localeCompare(b.name))
                    .map(item => `
 
-                            <tr>
-                                <td><input class="quantity" type="number"></td>
-                                <td class="unity">${ item.unity }</td>
-                                <td class="name">${ item.name }</td>
-                            </tr>
+                <tr id="product_row_container" item="teste" unity="kg" item.name="teste"></tr>
 
                 `).join('') }
 
@@ -43,6 +39,16 @@ module.exports = (data) =>
                 <img class="send" src="static/send-24px.svg">
             </a>
             <div class="text">Enviar via Whatsapp</div>
+  <!-- ... other HTML ... -->
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+<!-- Load our React component. -->
+<script src="static/product_row.js"></script>
         </div>
+
     </body>
 </html>`

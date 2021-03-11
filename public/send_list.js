@@ -1,8 +1,8 @@
-function sendList(){
+module.exports = exports = function sendList(unities, names, quantities){
     // var tableList = document.getElementById("table_list");
-    var unities = document.getElementsByClassName("unity")
-    var names = document.getElementsByClassName("name")
-    var quantities = document.getElementsByClassName("quantity")
+    //var unities = document.getElementsByClassName("unity")
+    //var names = document.getElementsByClassName("name")
+    //var quantities = document.getElementsByClassName("quantity")
     var msg = '';
     // console.log(quantities);
     // console.log(names);
@@ -17,5 +17,6 @@ function sendList(){
     // console.log(encodeURI(textMessage));
     msg = "https://api.whatsapp.com/send?text=" + encodeURI(msg) + "&lang=pt_br"
     // console.log(messageWhatsapp);
-    location.href = msg
-}
+    //location.href = msg
+  return(msg);
+};

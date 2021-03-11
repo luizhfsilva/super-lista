@@ -1,7 +1,7 @@
 module.exports = (data) =>
 `<html>
     <head>
-        <title>Digite a quantia para comprar:</title>
+        <title>Super Lista Compras</title>
         <link href="static/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link href="static/niceicon.jpg" rel="icon" sizes="128x128"/>
         <link href="static/styles.css" rel="stylesheet" type="text/css">
@@ -11,45 +11,38 @@ module.exports = (data) =>
     </head>
 
     <body>
-        <div class="container">
-            <div class="top">
-                <div id="titulo" class="text sub">Digite a quantia para Comprar:</div>
-            </div>
-            <div class="middle">
-            <form id="form" class="middle">
-                <table id="table_list">
-                    <thead>
-                        <tr>
-                            <th scope="col">Quantia</th>
-                            <th></th>
-                            <th scope="col">Nome</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    ${ [...new Set(data.map(item => item.category))].sort().map(cat =>
-                        `<tr>
-                            <td colspan="3">${cat}</td>
-                        </tr>
-                        ${ data.filter(item => item.category == cat).map((item) =>
-                            `<tr>
-                                <td class="quantia">
-                                <input class="quantidade" type="number">
-                                </td>
-                                <td class="unidade">${ item.unity }</td>
-                                <td class="nome">${ item.name }</td>
-                            </tr>`
-                        ).join('') }`
-                    ).join('') }
-                    </tbody>
+        <div class="top-bar">
+            Digite a quantia para Comprar:
+        </div>
+        <form class="content">
+
+            ${ [...new Set(data.map(item => item.category))].sort().map(cat =>`
+
+                <h3>${cat}</h3>
+                <table>
+
+                ${ data.filter(item => item.category == cat)
+                   .sort((a, b) => a.name.localeCompare(b.name))
+                   .map(item => `
+
+                            <tr>
+                                <td><input class="quantity" type="number"></td>
+                                <td class="unity">${ item.unity }</td>
+                                <td class="name">${ item.name }</td>
+                            </tr>
+
+                `).join('') }
+
                 </table>
-            </form>
-            </div>
-            <div class="bottom">
-                <a onclick="sendList()">
-                <div class="send"><img src="static/send-24px.svg" height="80px"></div>
-                </a>
-                <div class="text">Enviar via Whatsapp</div>
-            </div>
+
+            `).join('') }
+
+        </form>
+        <div class="bottom-bar">
+            <a onclick="sendList()">
+                <img class="send" src="static/send-24px.svg">
+            </a>
+            <div class="text">Enviar via Whatsapp</div>
         </div>
     </body>
 </html>`

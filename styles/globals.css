@@ -1,0 +1,42 @@
+html,
+body {
+  font-family: 'Domine', serif;
+  font-size: calc(4*(1vh+1vw)/2);
+  color: black;
+  text-align: center;
+  background: lightgray;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/** {
+  box-sizing: border-box;
+}*/
+table {
+    table-layout: fixed;
+    width: 100%;
+    font-size: inherit;
+}
+tr {
+    height: 2em;
+}
+td:nth-child(1) {
+    width: 20%;
+    text-align: center;
+}
+td:nth-child(2) {
+    width: 20%;
+}
+td:nth-child(3) {
+    width: 60%;
+}
+input[type=number] {
+    scroll-margin-top: 2rem;
+    scroll-margin-bottom: 2rem;
+    transform: scale(1.5);
+    width: inherit;
+}
