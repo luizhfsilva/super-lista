@@ -1,6 +1,6 @@
 {
   "name": "super-lista",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "private": true,
   "description": "Grocery Shopping List using Node.js (personal learning project)",
